@@ -105,7 +105,7 @@ def add_trafo_grid(view_name = "grid1",
                   ['B-ALL_00_Grid5_c1430'],
                   ['B-ALL_00_Grid5_c1451'],
                   ['B-ALL_00_Grid5_c1525']]
-                    
+    
     
     # make sure that the table is not there, otherwise this creates issues
     table_path = f"./data/tomo/tables/{view_name}/default.tsv"
