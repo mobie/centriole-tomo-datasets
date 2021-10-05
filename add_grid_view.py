@@ -27,22 +27,8 @@ def add_grid(view_name = "grid1",
     mobie.metadata.add_view_to_dataset("./data/tomo", view_name, view, overwrite=True)
 
 
-def add_trafo_grid(view_name = "grid1",
-             source_names = [["SM_02_Grid2_c264"],
-                                  ["SM_02_Grid2_c222"],
-                                  ["SM_02_Grid2_c141"],
-                                  ["SM_01_Grid5_c166"]],
-             dataset = "./data/tomo"
-             ):
-    """Add a grid view using the 'transformGrid' sourceTransform.
-    """
-    
-    
-      
-    view_name = "B-ALL-tomos"
-    
-    
-    source_names=[['B-ALL_00_Grid5_c0008'],
+def add_trafo_grid(view_name = "B-ALL-tomos",
+              source_names=[['B-ALL_00_Grid5_c0008'],
                   ['B-ALL_00_Grid5_c0011'],
                   ['B-ALL_00_Grid5_c0043'],
                   ['B-ALL_00_Grid5_c0064'],
@@ -104,7 +90,14 @@ def add_trafo_grid(view_name = "grid1",
                   ['B-ALL_00_Grid5_c1336'],
                   ['B-ALL_00_Grid5_c1430'],
                   ['B-ALL_00_Grid5_c1451'],
-                  ['B-ALL_00_Grid5_c1525']]
+                  ['B-ALL_00_Grid5_c1525']],
+             dataset = "./data/tomo"
+             ):
+    """Add a grid view using the 'transformGrid' sourceTransform.
+    """
+
+    
+
                     
     
     # make sure that the table is not there, otherwise this creates issues
