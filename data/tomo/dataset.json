@@ -178,7 +178,7 @@
               0.0,
               255.0
             ],
-            "name": "MMRR_06_Grid1_c442_c1_cropnew",
+            "name": "MMRR_06_Grid1_c442_c1_disp_cropnew",
             "opacity": 1.0,
             "sources": [
               "MMRR_06_Grid1_c442_c1_cropnew"
@@ -214,7 +214,7 @@
               "MMRR_06_Grid1_c442_c1_cropnew"
             ],
             "sources": [
-              "MMRR_06_Grid1_c442_c1"
+              "MMRR_06_Grid1_c442"
             ]
           }
         }
