@@ -18258,7 +18258,7 @@
       ],
       "uiSelectionGroup": "Centrioles"
     },
-    "MMRR_06_Grid1_c442_c1_crop": {
+    "MMRR_06_Grid1_c442_c1_cropnew": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -18309,7 +18309,7 @@
             "min": [
               -0.5,-0.5,-0.5
             ],
-            "affine": {
+            "boxAffine": {
               "parameters": [
                 0.9490429589825463,
                 -0.31507111608571897,
@@ -18336,7 +18336,7 @@
       ],
       "uiSelectionGroup": "crop_new"
     },
-    "MMRR_06_Grid1_c442_c2_crop": {
+    "MMRR_06_Grid1_c442_c2_cropnew": {
       "isExclusive": true,
       "sourceDisplays": [
         {
@@ -18387,7 +18387,7 @@
             "min": [
               -0.5,-0.5,-0.5
             ],
-            "affine": {
+            "boxAffine": {
               "parameters": [
                 -0.6423452756573118,
                 0.26523146068099934,
