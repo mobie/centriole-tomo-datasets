@@ -18413,6 +18413,28 @@
       ],
       "uiSelectionGroup": "crop_new"
     },
+    "TEST_new_grid": {
+      "isExclusive": true,
+      "sourceDisplays": [
+        {
+          "imageDisplay": {
+            "color": "white",
+            "contrastLimits": [
+              0.0,
+              255.0
+            ],
+            "name": "SM_centrioles_images",
+            "opacity": 1.0,
+            "sources": [["MMRR_06_Grid1_c442_c1_crop"],
+              ["MMRR_06_Grid1_c442_c2_crop"],
+              ["MMRR_06_Grid1_c442_c1_cropnew"],
+              ["MMRR_06_Grid1_c442_c2_cropnew"]
+              ]
+          }
+        }
+      ],
+      "uiSelectionGroup": "grid"
+    },
     "default": {
       "isExclusive": true,
       "sourceDisplays": [
