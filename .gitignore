@@ -6,3 +6,7 @@ patients.json
 Tabellen/
 data/**/_*
 *_join*
+*.ome.zarr
+.idea/*
+*/ome-zarr
+analysis/
